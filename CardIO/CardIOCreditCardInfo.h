@@ -1,6 +1,6 @@
 //
 //  CardIOCreditCardInfo.h
-//  Version 5.3.2
+//  Version 5.3.2-19-g40633a7
 //
 //  See the file "LICENSE.md" for the full license governing this code.
 //
@@ -23,7 +23,9 @@ typedef NS_ENUM(NSInteger, CardIOCreditCardType) {
   /// MasterCard
   CardIOCreditCardTypeMastercard = '5',
   /// Discover Card
-  CardIOCreditCardTypeDiscover = '6'
+  CardIOCreditCardTypeDiscover = '6',
+  /// Maestro Card 
+  CardIOCreditCardTypeMaestro = '7'
 };
 
 
